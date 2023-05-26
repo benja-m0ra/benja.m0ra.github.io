@@ -1,0 +1,167 @@
+body{
+    background-color: #f5f6f7;
+    text-align: center;
+    align-items: center;
+}
+
+
+
+.navbar{
+
+        padding: 1rem;
+        background-color: #f5f6f7;
+}
+
+.navbar-collapse{
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+h1{
+    font-size: 2.5rem;
+
+}
+
+.seccion-titulo{
+    font-size: 2rem;
+    padding: 15px 0;
+    font-family: 'Dancing Script', cursive;
+}
+
+.hero{
+    background-color: #f5f6f7;
+    min-height: 450px;
+    text-align: center;
+}
+.hero-imagen-logo{
+    width: 300px;
+    height: 300px;
+    margin: 30px;
+    border-radius: 50%;
+    margin: 20px;
+    align-items: center;
+    align-content: center;
+}
+
+.hero-inferior-imagen{
+    background-color: #f5f6f7;
+}
+
+.hero-principal h2{
+font-size: 1.5rem;
+color: #615151;
+
+}
+
+.seccion-oscura{
+    color: white;
+    background-color: #1b1b32;
+    border-radius: 15px;
+    margin: 24px;
+    border-color: #615151;
+    
+
+}
+
+
+.desc-entel .p {
+ 
+    background-color: #f5f6f7;
+    align-items: center;
+    padding: 30px;
+    font-size: 1.5rem;
+    margin: 4px;
+    justify-content: center;
+
+}
+
+
+.seccion-clara{
+    color: black;
+    background-color: #f5f6f7;
+}
+
+.sobre-mi{
+    height: 500px;
+    padding: 10px;
+}
+
+.sobre-mi .contenedor{
+    max-width: 600px;
+    text-align: center;
+}
+
+.experiencia{
+    padding: 40px;
+}
+
+.contacto{
+    padding: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contacto .row div {
+    height: 250px;
+    background-color: #f5f6f7
+}
+
+.experiencia-titulo{
+    font-size: 30px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    margin: 10px 0;
+}
+.badges-contenedor{
+    font-size: 15px;
+    font-weight: bold;
+    margin: 10px 0;
+
+}
+.badge{
+    margin: 5px;
+}
+.experiencia i {
+    font-size: 2.5rem;
+    color: #f5f6f7;
+    background-color: #1b1b32;
+    padding: 8px 19px;
+    border-radius: 50%;
+    align-items: center;
+}
+
+.contacto i {
+    font-size: 2.5rem;
+    color: #f5f6f7;
+    background-color: #1b1b32;
+    margin: 10px 0;
+    padding: 8px 19px;
+    border-radius: 50%;
+    align-items: center;
+    text-align: center;
+}
+
+.titulo-contacto{
+    font-size: 50px;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bold;
+    margin: 10px 0;
+}
+
+
+
+
+@media screen and (max-width:767px){
+    .navbar-brand{
+        display: none;
+    }
+}
+
